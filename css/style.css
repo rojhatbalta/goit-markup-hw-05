@@ -484,9 +484,6 @@ img {
   gap: 24px;
 }
 
-.footer-form-label {
-}
-
 .footer-form-label-input {
   width: 264px;
   height: 40px;
@@ -496,7 +493,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
