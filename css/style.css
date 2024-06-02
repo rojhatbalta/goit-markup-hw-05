@@ -576,8 +576,8 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-screen-inscreen-button-icon:hover,
-.modal-screen-inscreen-button-icon:focus {
+.modal-screen-inscreen-button:hover + .modal-screen-inscreen-button-icon,
+.modal-screen-inscreen-button:focus + .modal-screen-inscreen-button-icon {
   fill: #ffffff;
 }
 
