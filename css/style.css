@@ -470,7 +470,7 @@ img {
   fill: #f4f4fd;
 }
 
-.footer-form-container p {
+.footer-form-paragraph {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -481,10 +481,10 @@ img {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-form-label {
-  gap: 24px;
 }
 
 .footer-form-label-input {
@@ -496,7 +496,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 15);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 15);
   border-radius: 4px;
   color: #ffffff;
 }
