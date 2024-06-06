@@ -518,7 +518,7 @@ img {
   margin-left: 16px;
 }
 
-.modal-screen {
+.modal-window {
   position: fixed;
   top: 0;
   left: 0;
@@ -529,7 +529,7 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-screen-inscreen {
+.modal-container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -544,7 +544,7 @@ img {
   padding: 72px 24px 24px;
 }
 
-.modal-screen-inscreen-button {
+.modal-container-button {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -562,26 +562,26 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-screen-inscreen-button:hover,
-.modal-screen-inscreen-button:focus {
+.modal-container-button:hover,
+.modal-container-button:focus {
   border: none;
   background-color: #404bbf;
 }
 
-.modal-screen-inscreen-button::after {
+.modal-container-button::after {
   border: none;
 }
 
-.modal-screen-inscreen-button-icon {
+.modal-container-button-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-screen-inscreen-button:hover + .modal-screen-inscreen-button-icon,
-.modal-screen-inscreen-button:focus + .modal-screen-inscreen-button-icon {
+.modal-container-button:hover,
+.modal-container-button:focus {
   fill: #ffffff;
 }
 
-.modal-screen-paragraph {
+.modal-container-paragraph {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -591,11 +591,11 @@ img {
   margin-bottom: 16px;
 }
 
-.modal-screen-form-container {
+.modal-container-form-container {
   margin-bottom: 8px;
 }
 
-.modal-screen-form-name {
+.modal-container-form-name {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -604,11 +604,11 @@ img {
   margin-bottom: 4px;
 }
 
-.modal-screen-form-name-container {
+.modal-container-form-name-container {
   position: relative;
 }
 
-.modal-screen-form-name-input {
+.modal-container-form-name-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -619,13 +619,13 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-screen-form-name-input:hover,
-.modal-screen-form-name-input:focus,
-.modal-screen-form-name-input::after {
+.modal-container-form-name-input:hover,
+.modal-container-form-name-input:focus,
+.modal-container-form-name-input::after {
   border-color: #4d5ae5;
 }
 
-.modal-screen-form-name-icon {
+.modal-container-form-name-icon {
   position: absolute;
   left: 16px;
   top: 50%;
