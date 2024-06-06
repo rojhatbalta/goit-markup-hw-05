@@ -591,7 +591,7 @@ img {
   margin-bottom: 16px;
 }
 
-.modal-container-form-container {
+.modal-container-form {
   margin-bottom: 8px;
 }
 
@@ -602,9 +602,6 @@ img {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
-}
-
-.modal-container-form-name-container {
   position: relative;
 }
 
