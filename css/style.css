@@ -687,9 +687,9 @@ img {
   fill: transparent;
 }
 
-.privacy-input:checked {
+.privacy-input:checked + .user-privacy-span {
   background-color: #404bbf;
-  border: noene;
+  border: none;
   fill: #f4f4fd;
 }
 
